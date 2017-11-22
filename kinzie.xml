@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<project path="device/motorola/kinzie" name="VerdandiTeam/device_motorola_kinzie" revision="master" />
-	<project path="kernel/motorola/msm8992" name="VerdandiTeam/kernel_motorola_msm8992-1" revision="master" />
+	<project path="kernel/motorola/msm8992" name="VerdandiTeam/kernel_motorola_msm8992" revision="master" />
 	<project path="vendor/motorola/kinzie" name="VerdandiTeam/vendor_motorola_kinzie" revision="master" />
 	<project path="device/qcom/sepolicy" name="Cyanogenmod/android_device_qcom_sepolicy" revision="cm-13.0" />
 	<project path="device/qcom/common" name="Cyanogenmod/android_device_qcom_common" revision="cm-13.0" />
