@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<project path="device/huawei/alice" name="OpenKirin/android_device_huawei_alice" revision="los-13.0" />
-	<project path="kernel/huawei/alice" name="OpenKirin/android_kernel_huawei_alice" revision="mm" />
-	<project path="vendor/huawei/alice" name="OpenKirin/android_vendor_huawei_alice" revision="los-13.0" />
-</manifest>
