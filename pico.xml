@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remove-project name="mer-hybris/android_frameworks_av"/>
+<!-- Hacked CM repos -->
+   <project path="frameworks/av" name="VerdandiTeam/android_frameworks_av" revision="cm-12.1" />
+<!-- display-caf -->
+   <project path="hardware/qcom/display-caf/msm7x27a" name="VerdandiTeam/android_hardware_qcom_display" revision="cm-12.1-caf-msm7x27a" />
+<!-- media-caf -->
+   <project path="hardware/qcom/media-caf/msm7x27a" name="VerdandiTeam/android_hardware_qcom_media" revision="hybris-12.1-pico" />
+<!-- PICO Device Tree, Kernel and Vendor -->
+   <project path="device/htc/pico" name="VerdandiTeam/android_device_htc_pico" revision="cm-12.1" />
+   <project path="kernel/htc/pico" name="VerdandiTeam/android_kernel_htc_pico" revision="cm-12.1"/>
+   <project path="vendor/htc/pico" name="VerdandiTeam/android_vendor_htc_pico" revision="cm-12.1" />
+<!-- GOLFU Device Tree, Kernel and Vendor
+   <project path="device/htc/golfu" name="HtcLegacy/android_device_htc_golfu" revision="cm-12.1" />
+   <project path="kernel/htc/golfu" name="HtcLegacy/android_kernel_htc_golfu" revision="cm-12.1" />
+   <project path="vendor/htc/golfu" name="HtcLegacy/android_vendor_htc_golfu" revision="cm-12.1" /> -->
+<!--GOLFU WiFi -->
+   <!-- <project path="hardware/atheros/wlan" name="Cyanogenmod/android_hardware_atheros_wlan" revision="cm-12.0" /> -->
+<!-- Common Device Tree -->
+   <project path="device/htc/msm7x27a-common" name="VerdandiTeam/android_device_htc_msm7x27a-common" revision="cm-12.1" />
+</manifest>
