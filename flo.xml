@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="cxl000/android_device_asus_flo" path="device/asus/flo" revision="hybris-11.0" />
+  <remove-project path="external/droidmedia" name="sailfishos/droidmedia"/>
+
+  <project name="VerdandiTeam/android_device_asus_flo" path="device/asus/flo" revision="hybris-11.0" />
 <!--
   <project name="cxl000/android_device_asus_deb" path="device/asus/deb" revision="hybris-11.0" />
 /-->
-  <project name="cxl000/android_kernel_google_msm" path="kernel/google/msm" revision="hybris-11.0-deb" />
-  <project path="rpm.flo/" name="cxl000/droid-hal-flo" revision="master" />
-  <project path="hybris/droid-configs.flo" name="cxl000/droid-config-flo" revision="master" />
-  <project path="hybris/droid-hal-version-flo" name="cxl000/droid-hal-version-flo" revision="master" />
+  <project name="VerdandiTeam/android_kernel_google_msm" path="kernel/google/msm" revision="hybris-11.0-deb" />
+  <project path="rpm/" name="VerdandiTeam/droid-hal-flo" revision="master" />
+  <project path="hybris/droid-configs" name="VerdandiTeam/droid-config-flo" revision="master" />
+  <project path="hybris/droid-hal-version-flo" name="VerdandiTeam/droid-hal-version-flo" revision="master" />
+  <project name="VerdandiTeam/droidmedia" path="external/droidmedia" remote="github" revision="master"/>
 </manifest>
