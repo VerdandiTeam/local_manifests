@@ -2,4 +2,8 @@
 <manifest>
 	<project path="device/motorola/ghost" name="VerdandiTeam/android_device_motorola_ghost" revision="cm-13.0" />
 	<project path="kernel/motorola/ghost" name="VerdandiTeam/android_kernel_motorola_ghost" revision="cm-13.0" />
+	<project path="device/motorola/msm8960dt-common" name="VerdandiTeam/android_device_motorola_msm8960dt-common" revision="cm-13.0" />
+	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-13.0" />
+	<project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-13.0" />
+	<project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl" revision="cm-13.0" />
 </manifest>
