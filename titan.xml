@@ -3,18 +3,27 @@
 <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot"/>
 <remove-project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media"/>
 <remove-project path="external/droidmedia" name="sailfishos/droidmedia"/>
+<remove-project path="frameworks/native/" name="mer-hybris/android_frameworks_native"/>
+<remove-project path="system/core/" name="mer-hybris/android_system_core"/>
 
-<project name="VerdandiTeam/droid-config-titan" path="hybris/droid-configs.titan" remote="github" revision="hybris-12.1"/>
+<project name="VerdandiTeam/droid-config-titan" path="hybris/droid-configs.titan" remote="github" revision="master"/>
 <project name="VerdandiTeam/hybris-boot" path="hybris/hybris-boot" remote="github" revision="master"/>
 <project name="VerdandiTeam/droid-hal-version-titan" path="hybris/droid-hal-version-titan" remote="github" revision="master"/>
 <project name="VerdandiTeam/droid-hal-titan" path="rpm.titan/" remote="github" revision="hybris-12.1"/>
 <project name="VerdandiTeam/android_device_motorola_titan" path="device/motorola/titan" revision="stable/cm-12.1-YOG7D" />
 <project name="VerdandiTeam/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" revision="hybris-12.1" />
 <project name="VerdandiTeam/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" revision="hybris-12.1" />
+
+<!-- Thea repos  -->
+<project name="VerdandiTeam/android_device_motorola_thea" path="device/motorola/thea" revision="hybris-12.1" />
+<project name="VerdandiTeam/droid-hal-version-thea" path="hybris/droid-hal-version-thea" remote="github" revision="master"/>
+
 <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" revision="stable/cm-12.1-YOG7D" />
 <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" revision="stable/cm-12.1-YOG7D" />
 <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" revision="stable/cm-12.1-YOG7D" remote="github" />
 
 <project name="VerdandiTeam/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974/" remote="github" revision="hybris-12.1"/>
 <project name="VerdandiTeam/droidmedia" path="external/droidmedia" remote="github" revision="master"/>
+<project name="VerdandiTeam/android_frameworks_native" path="frameworks/native/" remote="github" revision="hybris-12.1"/>
+<project name="VerdandiTeam/android_system_core" path="system/core/" remote="github" revision="hybris-12.1"/>
 </manifest>
