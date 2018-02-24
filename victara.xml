@@ -6,7 +6,7 @@
 	<remove-project path="build" name="mer-hybris/android_build"/>
 
   	<project name="VerdandiTeam/android_device_motorola_victara" path="device/motorola/victara" remote="github" revision="hybris-13.0" />
-  	<project name="VerdandiTeam/android_kernel_motorola_msm8974" path="kernel/motorola/msm8974" remote="github" revision="cm-13.0" />
+  	<project name="VerdandiTeam/android_kernel_motorola_msm8974" path="kernel/motorola/msm8974" remote="github" revision="hybris-13.0" />
   	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
   	<project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-13.0" />
 	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
