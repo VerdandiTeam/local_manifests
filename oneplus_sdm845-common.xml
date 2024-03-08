@@ -6,10 +6,6 @@
     <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
     <project path="hybris/hybris-boot" name="sailfish-oneplus6/hybris-boot" revision="master"/>
 
-    <!-- hybris-patches with additions -->
-    <remove-project path="hybris-patches" name="mer-hybris/hybris-patches" />
-    <project path="hybris-patches" name="sailfish-oneplus6/hybris-patches" revision="hybris-16.0" />
-
     <!-- Needed for nfcd-binder-plugin -->
     <project path="hybris/mw/libncicore" name="mer-hybris/libncicore" revision="master" />
 
@@ -18,10 +14,6 @@
 
     <!-- Deathmist's Hybris-Installer -->
     <project path="hybris/hybris-installer" name="sailfish-oneplus6/hybris-installer" revision="hybris-16.0"/>
-
-    <!-- Removed the useless bootanimation/ directory which causes build issues without additional dependencies -->
-    <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
-    <project path="vendor/lineage" name="sailfishos-oneplus5/android_vendor_lineage" />
 
     <!-- patched update_engine to fix compile error -->
     <remove-project path="system/update_engine" name="LineageOS/android_system_update_engine"/>
